@@ -11,6 +11,7 @@
 }
 .navbar a{
     color:  #ffffff;
+    font-family: 'Playfair Display', serif;
 }
 .navbar a:hover{
    color: #0d7b94;
@@ -39,6 +40,8 @@ h1{
     font-style: bold;
 }
 
+
+
 /*------section----------*/
 .sec2 p{
     text-align: center;
@@ -51,6 +54,72 @@ h1{
     margin: 0px 0px 5em 0px;
     height: 500px;
 }
+
+.sec3{
+    background-color:#d9f5fb;
+    margin: 0px 0px 5em 0px;
+    height: 100%;
+}
+
+
+.sec4{
+    background-color:#d9f5fb;
+    margin: 0px 0px 5em 0px;
+    height: 100%;
+    
+}
+
+.sec4 h4{
+    text-align: center;
+    margin-top: 1.2em;
+    color:#152850;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.sec4 p{
+    text-align: left;
+    color:color:#152850;
+    margin-top:1em;
+    margin-bottom: 1em;
+    column-count: 2;
+    text-align-last:left;
+    
+}
+
+.sec5{
+    background-color:#d9f5fb;
+    margin: 0px 0px 0em 0px;
+    height: 100%;
+    padding: 3em;
+}
+
+.sec5 h4{
+    text-align: center;
+    margin-top: 1.2em;
+    color:#152850;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.sec5 p{
+    text-align: left;
+    color:color:#152850;
+    margin-top:1em;
+    margin-bottom: 1em;
+    column-count: 2;
+    text-align-last:left;
+    
+}
+
+.sec6{
+    background-color:#d9f5fb;
+    margin: 0px 0px 0em 0px;
+    
+    
+}
+
+
 
 /*------top button----*/
 
@@ -198,4 +267,70 @@ ul.social-network {
       margin-top: 2em;
   }
   
+/*-----imgpro----proces----*/
+
+
+.imgpro img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.rowclass img{
+    height: 600px;
+    width: 1600px;
+    margin: 0px 0px 0em 0px;
   
+}
+
+/*-----column----*/
+
+.column {
+  float: left;
+  width: 50%;
+  height: 100%;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+}
+
+.column p{
+    margin:1em;
+}
+
+.col art{
+    display: flex;
+    
+}
+/*---opgavefordeling og kanbann---*/
+.opg{
+    margin-top: 6.5em;
+}
+
+/*---link-style---*/
+
+.link a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #3B5998;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+  }
+  .link a:hover{
+      color: #fff;
+      text-decoration: none;
+      background-color: #44BCDD;
+  }
