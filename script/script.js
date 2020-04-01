@@ -17,3 +17,14 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+$(function () {
+    $("#readmore").click(function () {
+        $("#ekstra").toggle(function () {
+            if ($("#ekstra").is(":visible")) {
+                $("#readmore").text("Læs mindre...");
+            } else {
+                $("#readmore").text("Læs mere...");
+            }
+        });
+    });
+});
